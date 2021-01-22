@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Cuprum&display=swap');
+
+body{
+    background: linear-gradient(to top right, #ffffff 0%, #575757 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: rgb(44, 44, 44);
+    font-family: 'Cuprum', sans-serif;
+    margin: 10% 20% 0% 20%;
+}
+h1 {
+    animation-name: name;
+    animation-duration: 10s;
+}
+@keyframes name {
+    0% {
+        color:#000;
+    }
+    30% {
+        color: #fff;
+    }
+    100% {
+        color: #000;
+    }
+}
+p {
+    text-align: justify;
+}
+a {
+    text-decoration: none;
+    color: rgb(44, 44, 44);
+}
+a:hover {
+    color: rgb(45, 92, 26);
+}
+.cabina {
+    background: rgba(0, 0, 0, 0.4);
+    padding: 2%;
+    box-shadow: 1px 3px 10px #000;
+}
+ul li {
+    list-style: none;
+}
+.pic {
+    width:26%;
+    padding: 2%;
+    float: left;
+    align-items: center;
+}
+.pic img {
+    width:100%;
+}
+.info {
+    width:66%;
+    padding: 2%;
+    float: left;
+}
+.social {
+    text-align: center;
+}
+.social a {
+    padding: 0% 3% 0% 3%;
+}
+table th {
+    text-align: left;
+    width: 50%;
+    height: 30px;
+}
+.start {
+    color:rgb(255, 221, 29);
+}
